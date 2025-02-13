@@ -33,6 +33,10 @@ header {
     width: 70px;
 }
 
+.titulo{
+    font-family: 'Anton', sans-serif;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -76,3 +80,20 @@ main {
     max-width: 800px;
     border-radius: 10px;
 } 
+
+/* Estilo para el icono flotante */
+#whatsapp-icon {
+    position: fixed;
+    bottom: 10px; /* Ajusta la distancia desde el borde inferior */
+    right: 20px; /* Ajusta la distancia desde el borde derecho */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+}
+#whatsapp-icon img {
+    width: 50px; /* Ajusta el tamaño del ícono según sea necesario */
+    height: 50px;
+}
+#whatsapp-icon i {
+    font-size: 30px; /* Ajusta el tamaño del ícono */
+    color: #000000; /* Color de WhatsApp */
+    margin: 5px;
+}
